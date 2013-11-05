@@ -1,0 +1,45 @@
+NAME
+    Dist::Zilla::Plugin::Author::SHARYANTO::MetaResources - Set meta
+    resources for SHARYANTO dists
+
+VERSION
+    version 0.01
+
+SYNOPSIS
+    In dist.ini:
+
+     [Author::SHARYANTO::MetaResources]
+
+DESCRIPTION
+    Code is based on Dist::Zilla::Plugin::MetaResourcesFromGit. The
+    difference is the defaults: in this plugin, homepage by default is set
+    to MetaCPAN release page instead of github wiki.
+
+SEE ALSO
+    Dist::Zilla::PluginBundle::Author::SHARYANTO
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Dist-Zilla-Plugin-Author-SHARYANTO-MetaRes
+    ources>.
+
+SOURCE
+    Source repository is at HASH(0x3faa298).
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-Auth
+    or- SHARYANTO-MetaResources
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    Steven Haryanto <stevenharyanto@gmail.com>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2013 by Steven Haryanto.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+

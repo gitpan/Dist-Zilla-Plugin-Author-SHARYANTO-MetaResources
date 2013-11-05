@@ -1,0 +1,29 @@
+---
+abstract: 'Set meta resources for SHARYANTO dists'
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.001, CPAN::Meta::Converter version 2.132140'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Dist-Zilla-Plugin-Author-SHARYANTO-MetaResources
+requires:
+  Config::INI::Reader: 0
+  Dist::Zilla: 0
+  Path::Class: 0
+  String::Formatter: 0
+  perl: 5.010001
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-Author-SHARYANTO-MetaResources
+  homepage: https://metacpan.org/release/Dist-Zilla-Plugin-Author-SHARYANTO-MetaResources
+  repository: git://github.com/sharyanto/perl-Dist-Zilla-Plugin-Author-SHARYANTO-MetaResources.git
+version: 0.01

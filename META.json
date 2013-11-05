@@ -1,0 +1,62 @@
+{
+   "abstract" : "Set meta resources for SHARYANTO dists",
+   "author" : [
+      "Steven Haryanto <stevenharyanto@gmail.com>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.001, CPAN::Meta::Converter version 2.132140",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Dist-Zilla-Plugin-Author-SHARYANTO-MetaResources",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Pod::Coverage::TrustPod" : "0",
+            "Test::Pod" : "1.41",
+            "Test::Pod::Coverage" : "1.08",
+            "Test::Rinci" : "0.01"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Config::INI::Reader" : "0",
+            "Dist::Zilla" : "0",
+            "Path::Class" : "0",
+            "String::Formatter" : "0",
+            "perl" : "5.010001"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Spec" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-Author-SHARYANTO-MetaResources"
+      },
+      "homepage" : "https://metacpan.org/release/Dist-Zilla-Plugin-Author-SHARYANTO-MetaResources",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/sharyanto/perl-Dist-Zilla-Plugin-Author-SHARYANTO-MetaResources.git",
+         "web" : "https://github.com/sharyanto/perl-Dist-Zilla-Plugin-Author-SHARYANTO-MetaResources"
+      }
+   },
+   "version" : "0.01"
+}
+
